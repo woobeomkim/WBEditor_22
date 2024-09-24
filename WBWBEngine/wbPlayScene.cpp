@@ -21,7 +21,7 @@ namespace wb
 			obj->SetPosition(rand() % 1600, rand() % 900);
 			AddGameObject(obj);
 		}*/
-		{
+		/*{
 			Player* p1 = new Player();
 			Transform* tr = p1->AddComponent<Transform>();
 			tr->SetPos(800, 450);
@@ -65,8 +65,22 @@ namespace wb
 			sr->SetName(L"SR");
 			
 			AddGameObject(pl);
-		}
+		}*/
+		{
+			Player* bg = new Player();
+			Transform* tr
+				= bg->AddComponent<Transform>();
+			tr->SetPos(Vector2(0, 0));
 
+			tr->SetName(L"TR");
+
+			SpriteRenderer* sr
+				= bg->AddComponent<SpriteRenderer>();
+			sr->SetName(L"SR");
+			sr->ImageLoad(L"C:\\Users\\SeoMinCheol\\Desktop\\WBEditor-master\\WBEditor-master\\WBWBEngine\\Resources\\CloudOcean.png");
+
+			AddGameObject(bg);
+		}
 	}
 	void PlayScene::Update()
 	{

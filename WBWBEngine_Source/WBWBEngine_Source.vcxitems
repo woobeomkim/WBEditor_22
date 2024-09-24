@@ -20,6 +20,8 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)wbEntity.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)wbGameObject.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)wbInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)wbMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)wbResource.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)wbScene.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)wbSceneManager.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)wbSpriteRenderer.h" />
@@ -32,6 +34,8 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)wbEntity.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)wbGameObject.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)wbInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)wbMath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)wbResource.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)wbScene.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)wbSceneManager.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)wbSpriteRenderer.cpp" />
