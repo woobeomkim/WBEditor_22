@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WBEditor", "WBEditor\WBEditor.vcxproj", "{D2365A12-1D45-484D-914F-F744261DD700}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WBWBEngine", "WBWBEngine\WBWBEngine.vcxproj", "{C27E7EA6-D83E-4535-81E5-F270D9E33031}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WBWBEngine_Source", "WBWBEngine_Source\WBWBEngine_Source.vcxitems", "{B0EBD77B-A94D-4E47-9EA1-92E7A2E40CB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2365A12-1D45-484D-914F-F744261DD700}.Debug|x64.ActiveCfg = Debug|x64
+		{D2365A12-1D45-484D-914F-F744261DD700}.Debug|x64.Build.0 = Debug|x64
+		{D2365A12-1D45-484D-914F-F744261DD700}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2365A12-1D45-484D-914F-F744261DD700}.Debug|x86.Build.0 = Debug|Win32
+		{D2365A12-1D45-484D-914F-F744261DD700}.Release|x64.ActiveCfg = Release|x64
+		{D2365A12-1D45-484D-914F-F744261DD700}.Release|x64.Build.0 = Release|x64
+		{D2365A12-1D45-484D-914F-F744261DD700}.Release|x86.ActiveCfg = Release|Win32
+		{D2365A12-1D45-484D-914F-F744261DD700}.Release|x86.Build.0 = Release|Win32
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Debug|x64.ActiveCfg = Debug|x64
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Debug|x64.Build.0 = Debug|x64
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Debug|x86.ActiveCfg = Debug|Win32
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Debug|x86.Build.0 = Debug|Win32
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Release|x64.ActiveCfg = Release|x64
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Release|x64.Build.0 = Release|x64
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Release|x86.ActiveCfg = Release|Win32
+		{C27E7EA6-D83E-4535-81E5-F270D9E33031}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE906BE0-3EE9-459E-B526-3319560BD4F4}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WBWBEngine_Source\WBWBEngine_Source.vcxitems*{b0ebd77b-a94d-4e47-9ea1-92e7a2e40cb9}*SharedItemsImports = 9
+		WBWBEngine_Source\WBWBEngine_Source.vcxitems*{c27e7ea6-d83e-4535-81e5-f270d9e33031}*SharedItemsImports = 4
+		WBWBEngine_Source\WBWBEngine_Source.vcxitems*{d2365a12-1d45-484d-914f-f744261dd700}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
